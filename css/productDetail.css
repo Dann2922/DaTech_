@@ -1,0 +1,191 @@
+.product-detail-container {
+    padding: 20px;
+}
+
+.product-gallery img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.product-thumbnails img {
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+.product-thumbnails img:hover {
+    border-color: #007bff;
+}
+
+.product-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.product-rating {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.product-description {
+    margin-bottom: 20px;
+}
+
+.product-details dt {
+    font-weight: 600;
+}
+
+.product-details dd {
+    margin-bottom: 10px;
+}
+
+.quantity-selector {
+    display: flex;
+    align-items: center;
+}
+
+.quantity-selector button {
+    border-radius: 0;
+    border: 1px solid #ddd;
+    padding: 5px 10px;
+}
+
+.quantity-selector input {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 0;
+}
+
+.btn-custom {
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.btn-buy-now {
+    background-color: #ff9900;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+}
+
+.btn-add-to-cart {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+.btn-save {
+    background-color: #f8f9fa;
+    color: #007bff;
+    border: 1px solid #ddd;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 15px;
+}
+
+.similar-items img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.similar-items .info {
+    margin-left: 15px;
+}
+
+.similar-items .info a {
+    font-size: 1rem;
+    color: #333;
+}
+
+.similar-items .info strong {
+    font-size: 1.1rem;
+    color: #007bff;
+}
+
+.tab-content {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.nav-pills .nav-link.active {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.nav-pills .nav-link {
+    color: #007bff;
+    border-radius: 20px;
+}
+
+.btn-custom {
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-buy-now {
+    background-color: #ff5733;
+    color: #fff;
+}
+
+.btn-add-to-cart {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-save {
+    background-color: #f8f9fa;
+    color: #007bff;
+}
+
+.btn-custom:hover {
+    opacity: 0.8;
+}
+
+/* Image gallery */
+.item-thumb img {
+    border-radius: 0.25rem;
+}
+
+.item-thumb:hover img {
+    opacity: 0.7;
+}
+
+/* Similar items */
+.similar-items {
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 1rem;
+}
+
+.similar-items img {
+    border-radius: 0.25rem;
+}
+
+.similar-items .info {
+    flex: 1;
+}
+
+.similar-items .info a {
+    color: #007bff;
+}
+
+.similar-items .info strong {
+    display: block;
+    font-size: 1.125rem;
+    color: #333;
+}

@@ -1,0 +1,40 @@
+.navbar-custom {
+    position: relative;
+    background-color: #211951;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+    color: #15F5BA;
+}
+
+.navbar-custom .navbar-nav .nav-link:hover {
+    background-color: #211951;
+    color: #836FFF;
+}
+
+.navbar-custom .navbar-brand {
+    color: #15F5BA;
+}
+
+.navbar-custom .navbar-brand:hover {
+    color: #836FFF;
+}
+
+.navbar-toggler {
+    border-color: rgba(21, 245, 186, 0.5); /* Change border color to be similar to font color */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%2815, 245, 186, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar-toggler:hover .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba%28131, 111, 255, 1%29' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.sub-header {
+    border-bottom: 1px solid #ddd;
+}
+
+.sub-header .form-select {
+    width: auto;
+}
